@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config(); // Load .env variables
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
